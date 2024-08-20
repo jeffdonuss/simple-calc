@@ -2,6 +2,12 @@ var r="";
 var h;
 var o;
 var t;
+$(".clr").click(function(){
+  r="";
+  h="";
+  o="";
+  $("p").text(`${r}`);
+});
 $(".number1").click(function(){
   if(r===""){
     var p=$(`#${this.id}`).text();
